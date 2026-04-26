@@ -1,0 +1,14 @@
+name: "projet-r"
+output_dir: "_site"
+
+navbar:
+  title: "Projet Nantes"
+  left:
+    - text: "Accueil"
+      href: Projet_Nantes.html
+
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
