@@ -1,11 +1,14 @@
 name: "projet-r"
-output_dir: "_site"
+output_dir: "."
+
+rmd_files:
+  - "index.Rmd"
 
 navbar:
   title: "Projet Nantes"
   left:
     - text: "Accueil"
-      href: Projet_Nantes.html
+      href: index.html
 
 output:
   html_document:
